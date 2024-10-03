@@ -48,7 +48,7 @@ namespace seneca {
 
    public:
      Canister(); // Default constructor
-   Canister(double diameter, double height, const char* contentName = nullptr); // Constructor with diameter and height
+   Canister(double height, double diameter, const char* contentName = nullptr); // Constructor with diameter and height
     Canister(const char* contentName); // Constructor with content name
     Canister(const Canister& other); // Copy constructor
 

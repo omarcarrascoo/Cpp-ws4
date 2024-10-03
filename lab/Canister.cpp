@@ -73,7 +73,7 @@ namespace seneca {
    }
 
 // Three-argument constructor
-   Canister::Canister(double diameter, double height, const char* contentName) {
+   Canister::Canister(double height, double diameter,  const char* contentName) {
     m_diameter = diameter;
     m_height = height;
     m_contentVolume = 0.0;
